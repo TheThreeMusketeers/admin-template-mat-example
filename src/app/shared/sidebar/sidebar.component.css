@@ -1,0 +1,38 @@
+.example-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: 65px;
+}
+
+.example-events {
+  width: 300px;
+  height: 200px;
+  overflow: auto;
+  border: 1px solid #555;
+}
+
+
+.main-menu-green{
+  border-left: 5px solid rgb(49, 187, 49);
+ 
+}
+
+.main-menu-red{
+  border-left: 5px solid rgb(187, 49, 79);
+ 
+}
+
+.main-menu-blue{
+  border-left: 5px solid rgb(139, 140, 226);
+ 
+}
+
+.content{
+  margin-right: 50px;
+  padding-left: 50px;
+}
+
+  
