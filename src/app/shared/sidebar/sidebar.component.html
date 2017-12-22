@@ -1,5 +1,5 @@
-<mat-sidenav-container class="example-container" >
-    <mat-sidenav #sidenav mode="side" opened="true">
+<mat-sidenav-container class="example-container" (backdropClick)="close('backdrop')" >
+        <mat-sidenav #sidenav (keydown.escape)="close('escape')" disableClose>
                   <mat-accordion class="example-headers-align">
       <mat-expansion-panel  class="main-menu-green">
             
